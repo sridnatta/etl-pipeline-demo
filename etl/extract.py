@@ -6,5 +6,5 @@ def extract_data(path="data/imput.csv"):
         reader = csv.DictReader(f)
         for row in reader:
             rows.append(row)
-    ## test feature extract
+    ## test feature extract 1 - testing rebase
     return rows
